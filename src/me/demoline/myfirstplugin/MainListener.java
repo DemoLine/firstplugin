@@ -10,6 +10,6 @@ public class MainListener implements Listener {
 
     public MainListener(MyFirstPlugin main) {
         this.main = main;
-        main.getServer().getPluginManager().registerEvents( listener: this, main);
+        main.getServer().getPluginManager().registerEvents( this, main);
     }
 }
