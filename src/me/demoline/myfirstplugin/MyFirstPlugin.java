@@ -13,6 +13,7 @@ public class MyFirstPlugin extends JavaPlugin {
     @Override
     public  void onEnable() {
     try {
+
         Player player = event.getPlayer();
         if (player == null) return;
     } catch (Exception ex) {
